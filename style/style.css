@@ -1,0 +1,213 @@
+/* Font Google */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Herr+Von+Muellerhoff&family=Pacifico&family=Roboto:wght@300;400;700&display=swap");
+
+body {
+  overflow-x: hidden;
+  background-color: #eaeaea;
+}
+
+.header-cover {
+  height: 100vh;
+  background-image: url("/public/Assets/img/wallpaper-batik-biru-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "pacifico", sans-serif;
+}
+
+.img img {
+  width: 150px;
+  height: 150px;
+  margin-left: calc(50% - 75px);
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  backdrop-filter: blur(7px) saturate(100%);
+  -webkit-backdrop-filter: blur(7px) saturate(100%);
+  background-color: rgba(74, 144, 226, 0.57);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  margin-top: 20px;
+}
+
+.card-title {
+  font-family: "roboto", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.card-subtitle {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(253, 238, 27);
+  text-align: right;
+  letter-spacing: 7px;
+  margin-top: -30px;
+}
+
+.card-text {
+  color: #0e0e0e;
+  letter-spacing: 2px;
+}
+
+.card-quote {
+  font-family: "roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(253, 238, 27);
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  padding: 10px;
+  font-family: "roboto", sans-serif;
+  background-color: #0e0e0e;
+}
+
+.timer-item .timer-item-number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #eaeaea;
+}
+
+.timer-item .timer-item-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fc1900;
+}
+
+.btn a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+/* Undangan page */
+.hero {
+  width: 100%;
+  height: 500px;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+}
+.text-description {
+  font-family: "roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.hero-text {
+  width: 450px;
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(253, 238, 27);
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-title-quote {
+  font-family: "roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: rgb(253, 238, 27);
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.time {
+  width: 100%;
+  margin-top: -130px;
+  padding: 20px;
+  font-family: "roboto", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+.time img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -20px;
+  left: 40%;
+  transform: translateX(-50%);
+}
+
+.rundown {
+  background-color: #233343;
+  color: #fff;
+  padding: 20px;
+}
+
+.rundown-title {
+  text-align: center;
+  color: rgb(253, 238, 27);
+  margin: 20px 0;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  top: 12px;
+  background-color: #233343;
+  color: #eaeaea;
+  font-family: "roboto", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+.footer-text {
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+/* Desktop page */
+@media (min-width: 768px) {
+  .img img {
+    margin-bottom: 0;
+  }
+  .content {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .hero-text {
+    margin: 0 auto;
+  }
+}
+
+/* Mobile screene */
