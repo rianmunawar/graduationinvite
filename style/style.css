@@ -156,6 +156,19 @@ body {
   top: -20px;
   left: 40%;
   transform: translateX(-50%);
+  animation: rotate 1.5s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
 }
 
 .rundown {
@@ -170,6 +183,16 @@ body {
   margin: 20px 0;
 }
 
+iframe {
+  border-radius: 20px;
+}
+
+.btn-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Footer */
 .footer {
   position: relative;
@@ -182,8 +205,31 @@ body {
   padding-top: 10px;
 }
 
-iframe {
-  border-radius: 20px;
+.sosmed-footer {
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.sosmed-item {
+  margin-bottom: 5px;
+}
+
+.sosmed-item a {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+.container > h6 {
+  font-family: "roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.icon-sosmed-wraper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer-text {
